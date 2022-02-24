@@ -1,0 +1,15 @@
+---
+framework: jest
+preRun:
+     command:
+        - yarn install
+preMerge:
+  pattern:
+    - "__tests__/base.spec.ts"
+postMerge:
+  pattern: 
+    - "__tests__/base.spec.ts"
+postRun:
+     command:
+        - yarn --version
+version: 1.0
