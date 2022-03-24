@@ -367,3 +367,4 @@ as well as in the code (_e.g.,_ `src/core/functions.ts`) and the debugger will f
 Note that I tested all this on Node 8.x. I've seen issues with debugging using Node 6.x so
 if you are having trouble there, you might consider upgrading (or let, if you manage to fix
 it, submit a PR for this README explaining the fix).
+#Updated readme.md
